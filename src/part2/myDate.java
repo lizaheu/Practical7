@@ -13,4 +13,8 @@ public final class myDate {
     public Calendar getEndDate() {
         return endDate;
     }
+    
+    public int getDay(){
+        return Calendar.DAY_OF_YEAR;
+    }
 }

@@ -9,7 +9,7 @@ public class DateUtilities {
   }
  
   public static int countTotalDays(myDate a) {
-    int totalDays = a.getEndDate().get(Calendar.DAY_OF_YEAR) - a.getStartDate().get(Calendar.DAY_OF_YEAR) + 1;
+    int totalDays = a.getEndDate().get(a.getDay()) - a.getStartDate().get(a.getDay()) + 1;
     return totalDays;
   }
   
